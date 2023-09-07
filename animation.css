@@ -1,16 +1,38 @@
 
-@keyframes scale {
+
+@keyframes z00m2 {
   0% {
     transform: scale(1);
   }
   12.5% {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
   25% {
     transform: scale(1);
   }
   37.5% {
-    transform: scale(1.1);
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes z00m {
+  0% {
+    transform: scale(1);
+  }
+  12.5% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  37.5% {
+    transform: scale(1);
   }
   50% {
     transform: scale(1);
